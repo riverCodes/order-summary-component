@@ -18,10 +18,11 @@ main {
     display: flex;
     flex-direction: column;
     background-color: white;
-    max-width: 32vmax;
+    max-width: 30rem;
     position: relative;
     border-radius: 20px;
     box-shadow: 0 10px 10px 10px hsl(225, 100%, 94%);
+    margin: 3rem;
 }
 .order-summary-image {
     display: block;
@@ -38,21 +39,23 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px 40px 40px 40px;
 }
 h1 {
     text-align: center;
     font-size: 26px;
     font-weight: 900;
     margin-bottom: 15px;
+    margin-top: 40px;
 }
 .order-description-container p {
     font-size: 16px;
     font-weight: 500;
     text-align: center;
     line-height: 1.5;
+    margin: auto;
     margin-bottom: 40px;
     color: hsl(224, 23%, 55%);
+    width: 80%;
 }
 .order-details-container {
     background-color: hsl(225, 100%, 98%);
@@ -61,12 +64,16 @@ h1 {
     justify-content: space-around;
     padding: 20px 0 20px 0;
     border-radius: 20px;
+    margin: auto;
+    width: 80%;
     margin-bottom: 40px;
 }
 .left-section-container {
     margin-left: 20px;
+    margin-right: 5px;
     float: left;
     width: 75%;
+    white-space: nowrap;
 }
 .music-icon {
     display: inline-block;
@@ -107,7 +114,9 @@ h5 {
     font-weight: 700;
     border-radius: 10px;
     box-shadow: 0 10px 10px 10px hsl(225, 100%, 94%);
+    margin: auto;
     margin-bottom: 30px;
+    width: 80%;
 }
 .cancel-order-button {
     color: hsl(224, 23%, 55%);
@@ -116,7 +125,9 @@ h5 {
     border: none;
     font-size: 16px;
     cursor: pointer;
-
+    margin: auto;
+    margin-bottom: 30px;
+    width: 80%;
 }
 .footer {
     position: fixed;
